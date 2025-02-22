@@ -91,7 +91,7 @@ class TeamMatches extends Component {
     console.log(isLoading)
     const {teamBannerUrl, latestMatchDetails, recentMatches} = teamData
     return isLoading ? (
-      <div testid="loader">
+      <div data-testid="loader">
         <Loader type="TailSpin" color="orange" height={50} width={50} />
       </div>
     ) : (
